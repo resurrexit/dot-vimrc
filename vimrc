@@ -186,6 +186,12 @@ nnoremap <c-l> <c-w>l
 " Avoid the escape key.
 inoremap jk <Esc>
 
+" Escape from brackets to continue coding
+"inoremap ( ()<Esc>:let leavechar=")"<CR>i
+"inoremap [ []<Esc>:let leavechar="]"<CR>i
+"imap sd <Esc>:exec "normal f" . leavechar<C>
+inoremap sd <Esc>/[}"'\]>]<CR>:nohl<CR>a
+
 " When editing a file, always jump to the last cursor position
 autocmd BufReadPost *
       \ if ! exists("g:leave_my_cursor_position_alone") |

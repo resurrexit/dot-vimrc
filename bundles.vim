@@ -69,7 +69,7 @@ Bundle 'nono/jquery.vim'
 
 "------- markup language -------
 Bundle 'tpope/vim-markdown'
-Plugin 'LaTeX-Box-Team/LaTeX-Box'
+Plugin 'AutomaticLaTeXPlugin'
 
 "------- Go ----------
 Bundle 'fatih/vim-go'

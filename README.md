@@ -1,3 +1,7 @@
+### Note: If you are looking for a wonderful vim config, go to the repo this branch comes
+## from. This is a modified version, customised to resurrexit's likings. It may not be how
+## you want it.
+
 Maple's Vim config
 ==================
 
@@ -93,18 +97,16 @@ sudo apt-get install vim-gtk               # Ubuntu
 ## IDE features
 
 * [nerdtree](http://github.com/scrooloose/nerdtree) - A tree explorer plugin for navigating the filesystem.
-* [tabbar](http://github.com/humiaozuzu/TabBar) -  Add tab bar and quickt tab switch with alt+1~9.
+* [tabbar](http://github.com/humiaozuzu/TabBar) -  Add tab bar and quick tab switch with alt+1~9.
 * [tagbar](http://github.com/majutsushi/tagbar) - Displays the tags of the current file in a sidebar.
-* [ack-vim](http://github.com/mileszs/ack.vim) - Front for the Perl module App::Ack.
-* [ctrlp](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, mru and tag finder.
 * [powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim statusline utility.
 * [fugitive](https://github.com/tpope/vim-fugitive/) - a Git wrapper so awesome, it should be illegal.
 * [syntastic](https://github.com/scrooloose/syntastic) - Syntax checking hacks for vim.
 
-### Dependencie
+### Dependencies
 
 ```bash
-yaourt -S ack ctags                  # ArchLinux
+yaourt -S ack ctags                  # Arch Linux
 sudo apt-get install ack-grep ctags  # Ubuntu
 brew install ack ctags               # OS X
 ```
@@ -154,7 +156,6 @@ YAML         | js-yaml       | `npm install -g js-yaml`
 
 ## Other Utils
 
-* [fcitx-status](https://github.com/humiaozuzu/fcitx-status) - automatic change status of fcitx in vim.
 * [togglemouse](https://github.com/nvie/vim-togglemouse/) - Toggles the mouse focus between Vim and your terminal emulator, allowing terminal emulator mouse commands, like copy/paste.
 
 ### Shortcuts
@@ -164,17 +165,11 @@ YAML         | js-yaml       | `npm install -g js-yaml`
 ## Better syntax/indent for language enhancement
 
 - Server
-   - php
    - go
-   - rails
-   - jinja
-   - jade
 - Web
    - html5
    - haml
    - javascript
-   - jquery
-   - coffeescript
    - less
    - stylus
    - handlebar
@@ -185,7 +180,6 @@ YAML         | js-yaml       | `npm install -g js-yaml`
    - racket
    - clojure
    - scale
-  
 
 ## Themes
 

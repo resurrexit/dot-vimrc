@@ -1,5 +1,4 @@
-## Note: If you are looking for a wonderful vim config, go to the repo this branch comes
-## from.
+## Note: If you are looking for a wonderful vim config, go to the repo this branch comes from.
 
 Maple's Vim config
 ==================
@@ -14,7 +13,7 @@ will be good for you.
 #### Most of the time we are writing code so we need:
 ## Code Completions
 
-Such as completions for variable names and function names(neocomplcache), expanding snippets(snipMate), auto closing brackets/brace/quote(delimitMate) and fast expand expressions to HTML(ZenCoding).
+Such as completions for variable names and function names (neocomplcache), expanding snippets(snipMate), auto closing brackets/brace/quote (delimitMate) and fast expand expressions to HTML (ZenCoding).
 
 * [neocomplcache](http://github.com/Shougo/neocomplcache) - Ultimate auto completion system for Vim.
 * [snipMate](https://github.com/garbas/vim-snipmate) - Plugin for using TextMate-style snippets in Vim.
@@ -37,22 +36,6 @@ brew install macvim --override-system-vim  # OS X
 yaourt -S gvim                             # Arch Linux
 sudo apt-get install vim-gtk               # Ubuntu
 ```
-
-### Tutorial
-
-``` vim
-:help zencoding
-```
-
-[Movie teaching zencoding.vim](http://mattn.github.com/zencoding-vim/)
-
-### Screenshots
-
-![Completions](https://raw.github.com/humiaozuzu/dot-vimrc/master/screenshots/completions.gif)
-![Snippets](https://raw.github.com/humiaozuzu/dot-vimrc/master/screenshots/snippets.gif)
-
-#### Sometimes we need to jump to previous positions to copy/paste or do some fixes:
-## Fast navigation
 
 * [matchit](http://github.com/edsono/vim-matchit) - Extended % matching for HTML, LaTeX, and many other languages.
 * [EasyMotion](https://github.com/Lokaltog/vim-easymotion) - Vim motions on speed!

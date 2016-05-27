@@ -1,6 +1,5 @@
-### Note: If you are looking for a wonderful vim config, go to the repo this branch comes
-## from. This is a modified version, customised to resurrexit's likings. It may not be how
-## you want it.
+## Note: If you are looking for a wonderful vim config, go to the repo this branch comes
+## from.
 
 Maple's Vim config
 ==================
@@ -35,7 +34,7 @@ Compile Vim with `--enable-pythoninterp` and `--enable-rubyinterp` to enable pow
 
 ``` bash
 brew install macvim --override-system-vim  # OS X
-yaourt -S gvim                             # ArchLinux
+yaourt -S gvim                             # Arch Linux
 sudo apt-get install vim-gtk               # Ubuntu
 ```
 
@@ -96,7 +95,6 @@ sudo apt-get install vim-gtk               # Ubuntu
 
 ## IDE features
 
-* [nerdtree](http://github.com/scrooloose/nerdtree) - A tree explorer plugin for navigating the filesystem.
 * [tabbar](http://github.com/humiaozuzu/TabBar) -  Add tab bar and quick tab switch with alt+1~9.
 * [tagbar](http://github.com/majutsushi/tagbar) - Displays the tags of the current file in a sidebar.
 * [powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim statusline utility.
@@ -117,42 +115,25 @@ Languages    | Lint Tools    | Install guide
 ------------ | ------------- | ------------
 C            | gcc           | built-in
 CPP          | g++           | built-in
-CoffeeScript | coffee        | `npm install -g coffeelint`
-CSS          | csslint       | `npm install -g csslint`
-Erlang       | escript       | built-in
 Go           | go            | built-in
-Haml         | haml          | built-in
 Haskell      | ghc-mod       | `cabal install ghc-mod`
 HTML         | tidy          | built-in
 Java         | javac         | built-in
 Javascript   | jshint        | `npm install -g jshint`
-Json         | jsonlint      | `npm install -g jsonlint`
-Less         | lessc         | built-in
 Lisp         | clisp         | built-in
-Lua          | luac          | built-in
 Perl         | perl          | built-in
-PHP          | php           | built-in
-Puppet       | puppet        | built-in
 Python       | pyflakes      | `sudo pip install pyflakes`
 Ruby         | ruby          | built-in
 Scala        | scala         | built-in
-Sass         | sass          | built-in
-Scss         | scss/compass  | `gem install compass`
 XML          | xmllint       | built-in
 YAML         | js-yaml       | `npm install -g js-yaml`
 
 ### Shortcuts
-* `F5` -> Toggle Nerd-Tree file viewer
 * `F6` -> Toggle tagbar
 * `Ctrl` + `p` -> Toggle ctrlp
 * `Alt` + `1~9` -> Switch between multiple buffers
 * `Ctrl` + `h/j/k/l` -> Moving between spilt windows
 * `:Ack` or `<leader>` + `a` -> Toggle Ack searching
-
-### Screenshots
-
-![Vim IDE 1](https://raw.github.com/humiaozuzu/dot-vimrc/master/screenshots/vim.jpg)
-![Vim IDE 2](https://raw.github.com/humiaozuzu/dot-vimrc/master/screenshots/vim2.jpg)
 
 ## Other Utils
 
@@ -216,7 +197,7 @@ Clone in Mac
 
 2. Clone and install this repo:
 
-        git clone git://github.com/humiaozuzu/dot-vimrc.git ~/.vim
+        git clone git://github.com/resurrexit/dot-vimrc.git ~/.vim
         ln -s ~/.vim/vimrc ~/.vimrc
 
 3. Setup `Vundle`:

@@ -38,7 +38,6 @@ Bundle 'nathanaelkane/vim-indent-guides'
 "--------------
 " IDE features
 "--------------
-Bundle 'scrooloose/nerdtree'
 Bundle 'humiaozuzu/TabBar'
 Bundle 'majutsushi/tagbar'
 Bundle 'tpope/vim-fugitive'
